@@ -120,7 +120,9 @@ input:nth-child(n){
 
 table {
   width: 100%;
-  height: 300px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 40vw;
 }
 
 #Trade-btn {
@@ -128,4 +130,65 @@ table {
   border: none;
   padding: 10px;
   border-radius: 20px;
+}
+
+tbody > tr {
+  height:70px
+}
+
+#view-btn {
+  position: relative;
+  left: 70%;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight:bold ;
+}
+
+/* legal update page  */
+
+.LegalUpdate-top {
+  background: lightgreen;
+  padding: 5px;
+  text-align: left;
+}
+
+.LegalUpdate-top > h2 {
+  width: 200px;
+    position: relative;
+    left: 50px;
+    /* right: 100px; */
+    /* margin: 50px; */
+    color: white;
+}
+
+.LegalUpdate-bottom .bottom-left {
+  text-align: left;
+  width: 70%;
+}
+
+.bottom-left > h4 {
+  position: relative;
+  left: 20px;
+  width: 350px;
+}
+
+.bottom-left  p {
+  position: relative;
+    width: 300px;
+    left: 20px;
+}
+
+#LegalUpdate-btn {
+  position: relative;
+  left: 20px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.LegalUpdate-bottom .bottom-right {
+  position: relative;
+    top: -70px;
+    right: 40px;
 }
