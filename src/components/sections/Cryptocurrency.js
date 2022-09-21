@@ -39,7 +39,7 @@ const Cryptocurrency = () => {
       ))
       }
       <tr>
-        <td ><button id='view-btn'>View All Cryptocurrencies</button></td>
+        <td ><button onClick={()=> alert("Pending work , just wait for next update")} id='view-btn'>View All Cryptocurrencies</button></td>
       </tr>
         </tbody>
 

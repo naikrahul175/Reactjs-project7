@@ -14,7 +14,7 @@ const Update = () => {
               <div className="bottom-left">
                 <h4>Cryptocurrencies appeal to their supporters <br/> for a variety of reasons</h4>
                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups</p>
-                <button id="LegalUpdate-btn">Read More</button>
+                <button onClick={()=> alert("Pending work , just wait for next update")} id="LegalUpdate-btn">Read More</button>
               </div>
               <div className="bottom-right">
                 <img src={img4} alt="img" width="350px" height="300px" />

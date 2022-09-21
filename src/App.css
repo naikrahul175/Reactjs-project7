@@ -69,26 +69,27 @@ li:hover {
 /* banner styling*/
 .Slider {
   margin: 40px;
-  height: 40vw;
+  /* height: 40vw; */
   /* background: url('./images/banner.png'); */
   /* background-size: cover; */
   position: relative;
   
 }
  .Slider-title {
-  width: 200px;
+  /* width: 200px; */
+  text-align: start;
   color: white;
   font-weight: bold;
   position: absolute;
-  top: 10px;
-  left: 50px;
+  top: 50px;
+  left: 70px;
  }
  .Slider-subtitle {
   width: 150px;
   color: white;
   position: absolute;
   /* bottom: 40px; */
-  top:45%;
+  top:50%;
   left: 70px;
  }
 
@@ -104,10 +105,9 @@ li:hover {
 
 .Slider .btn {
   position: absolute;
-  bottom: px;
   left: 80px;
   /* top: 110%; */
-  bottom: 30px;
+  bottom: 40px;
 }
 
 input:nth-child(n){
@@ -191,4 +191,68 @@ tbody > tr {
   position: relative;
     top: -70px;
     right: 40px;
+}
+
+
+/* Videos  page*/
+.Video-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Video-col {
+  position: relative;
+  text-align: left;
+}
+
+/* .Video-col:nth-child(n) {
+  position: relative;
+} */
+
+.Video-col button {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+
+.col-2 .play-btn {
+  position: relative;
+  bottom: 10vw;
+  left: -20px;
+}
+
+.Video-col-top , .video-col-bottom {
+  position: relative;
+}
+
+img ~ button {
+  border: none;
+ padding: 10px;
+  border-radius: 50px;
+}
+
+.Video-col > p {
+  position: absolute;
+  /* top: 55%; */
+  bottom: 10%;
+  left: 20px;
+  color: white;
+  font-weight: bold;
+  width: 280px;
+}
+
+.Video-col-top > p {
+  position: absolute;
+  color: white;
+  bottom: 10%;
+  left: 30px;
+  font-weight: bold;
+ } 
+
+.video-col-bottom > p {
+  position: absolute;
+  left: 30px;
+  color: white;
+  bottom: 10%;
+  font-weight: bold;
 }
